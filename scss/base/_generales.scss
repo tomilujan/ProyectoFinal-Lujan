@@ -1,0 +1,24 @@
+h1, a, p, footer, h2, label, span, h3 {
+    color: $color_textos;
+}
+
+ul, li, a:hover{
+    color: $hover_nav;
+}
+
+ul li p{
+    text-align: left;
+    padding-left: 2%;
+    
+}
+
+ul li img{
+    max-width: 70%;
+    max-height: 70%;
+    padding-top: 2%;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+}

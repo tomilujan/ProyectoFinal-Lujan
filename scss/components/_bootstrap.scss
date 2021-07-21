@@ -1,0 +1,39 @@
+#logo-navegador{
+    font-family: $font_titulos;
+    margin-left: 2%;
+    color: $color_logo;
+}
+#cont-navegador{
+    padding-left: 2%;
+    margin-left: auto;
+}
+
+#contenedor-carrusel{
+    margin-top: 5%;
+    border-radius: 4px;
+}
+.carousel-item{
+    border-radius: 4px;
+}
+.carousel-caption{
+    right: 45%;
+    bottom: 65%;
+    left: 1%;
+}
+
+#contenedor-form{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    
+}

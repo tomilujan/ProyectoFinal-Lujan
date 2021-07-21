@@ -1,0 +1,37 @@
+.body-home{
+    height: auto;
+    width: 100%;
+    background-image: url(../img/servicios.jpg);
+    font-family: $font_textos;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #202731,#696969);
+    font-family: $font_textos;
+    
+}
+
+.body-contacto{
+    height: auto;
+    width: 100%;
+    background-image: url(../img/clientela2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: $font_textos;
+}
+
+
+.body-registrarse{
+    
+    height: auto;
+    width: 100%;
+    background-image: url(../img/div-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: $font_textos;
+}

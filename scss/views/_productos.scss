@@ -1,0 +1,59 @@
+.cont-prod{
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+}
+.color-prod{
+    color: $color_productos;
+    font-family: $font_grueso;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    
+}
+.tit-productos{
+    text-align: center;
+    width: 75%;
+    border-radius: 4px;
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: $color_logo;
+    color: $color_productos;
+    font-family: $font_grueso;
+}
+.lista-1 li{
+    color: white;
+}
+.lista-2 li{
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    .img1{
+        width: 40vw;
+        height:auto ;
+    }
+    .cont-prod{
+        width: 100vw;
+        height: auto;
+        margin-bottom: 2%;
+        .col{
+            font-size: 00.80rem;
+        }
+    }
+
+    .tit-productos{
+        font-size: 1rem;
+    }
+    .lista-1 li{
+        font-size: 00.80rem;
+    }
+    .lista-2 li{
+        font-size: 00.80rem;
+    }
+}
+    
+   

@@ -1,0 +1,12 @@
+@mixin grid ($bordeRadio, $paddingleft, $paddingbottom, $paddingright){
+    
+    border-radius: $bordeRadio;
+    padding-left: $paddingleft;
+    padding-bottom: $paddingbottom;
+    padding-right: $paddingright;
+}
+@mixin footer ($altura, $marginT, $paddingL) {
+    height: $altura;
+    margin-top: $marginT;
+    padding-left: $paddingL;
+}

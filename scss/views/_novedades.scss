@@ -1,0 +1,92 @@
+.imgclientes1{
+    height: auto;
+    width: 90%;
+    border: solid 3px $color_productos;
+    border-radius: 4px;
+}
+.imglocal{
+    text-align: right;
+    padding-top: 2%;
+    padding-left: 2%;
+    max-width: 50%;
+    border-radius: 4px;
+    margin-bottom: 2%;
+    grid-area: caja1;
+    
+}
+.div1 h3{
+    background-color: $color_logo;
+    border-radius: 4px;
+    color: $color_productos;
+    padding-top: 1%;
+
+}
+.mod-nov{
+    text-align: center;
+}
+
+.tit-redes h3{
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    color: $color_productos;
+    font-family: $font_grueso;
+}
+
+.redes-soc{
+    background-color: $background_textos;
+    padding: 1% 2% 2% 1%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .novedades-grid{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+        .div1{
+            width: 90vw;
+            height: auto;
+            font-size: 00.70rem;
+        }
+    
+        .imgclientes1{
+            width: 90vw;
+            height: auto;
+        }
+        .tit-redes{
+            width: 90vw;
+            height: auto;
+        }   
+        .redes{
+            width: 95vw;
+            height: auto;
+    
+        }
+        
+    }
+    .tit-redes h3{
+        font-size: 00.70rem;
+        }
+    .redes p{
+            width: 90vw;
+            height: auto;
+            font-size: 00.40rem;
+        }
+
+    .redes svg{
+            max-height: 15px;
+        }
+
+    
+    
+
+    
+    
+
+}
+     
+    

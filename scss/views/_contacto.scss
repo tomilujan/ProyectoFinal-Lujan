@@ -1,0 +1,27 @@
+.contacto{
+    width: 100%;
+    height: auto;
+    background: $color_logo;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 4px;
+}
+.tit-form{
+    color: $color_productos;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px){
+    .tit-form{
+        font-size: 1rem;
+    }
+
+    #contenedor-form{
+        font-size: 00.80rem;
+    }
+
+    .form-control{
+        font-size: 00.7rem;
+    }
+    
+}
