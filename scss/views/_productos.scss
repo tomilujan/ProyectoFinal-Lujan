@@ -15,7 +15,7 @@
 }
 .tit-productos{
     text-align: center;
-    width: 75%;
+    width: 77%;
     border-radius: 4px;
     font-size: 2rem;
     margin-top: 2%;
@@ -25,9 +25,15 @@
     font-family: $font_grueso;
 }
 .lista-1 li{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
     color: white;
 }
 .lista-2 li{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
     color: white;
 }
 

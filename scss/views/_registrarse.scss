@@ -24,29 +24,34 @@
     }
 }
 .textos{
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: $color_logo;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 5%;
-    font-size: 2rem;
-    background-color: $color_logo;
+    
+}
+.textos h3{
+    font-size: 1.5rem;
 }
 .agregados{
-    width: 100%;
+    width: 80%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin-left: 10%;
     margin-top: 5%;
     background-color: $color_link;
     font-size: 1rem;
     font-family: $font_grueso;
     color: $color_productos;
-}
-.link-nov{
-    color:$color_productos;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 @media only screen and (max-width: 600px){
