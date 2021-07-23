@@ -162,15 +162,9 @@ body {
   grid-template-areas: "lista-1 lista-2" "lista-1 lista-2";
   column-gap: 6px; }
   .servicios .lista-1 {
-    grid-area: "lista-1";
-    display: flex;
-    justify-content: left;
-    flex-direction: column; }
+    grid-area: lista-1; }
   .servicios .lista-2 {
-    grid-area: "lista-2";
-    display: flex;
-    justify-content: right;
-    flex-direction: column; }
+    grid-area: lista-2; }
 
 .footer--mod {
   display: flex;
@@ -330,13 +324,15 @@ li, a {
   display: flex;
   justify-items: center;
   justify-content: center;
-  color: white; }
+  color: white;
+  font-size: 0.8rem; }
 
 .lista-2 li {
   display: flex;
   justify-items: center;
   justify-content: center;
-  color: white; }
+  color: white;
+  font-size: 0.8rem; }
 
 @media only screen and (max-width: 600px) {
   .img1 {
@@ -351,17 +347,18 @@ li, a {
   .tit-productos {
     font-size: 1rem; }
   .lista-1 li {
-    font-size: 00.80rem; }
+    font-size: 00.40rem; }
   .lista-2 li {
-    font-size: 00.80rem; } }
+    font-size: 00.40rem; } }
 
 .contacto {
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin-left: 10%;
   background: #ffc107;
   margin-top: 2%;
   text-align: center;
-  border-radius: 4px; }
+  border-radius: 8px; }
 
 .tit-form {
   color: #050505;

@@ -28,13 +28,16 @@
     display: flex;
     justify-items: center;
     justify-content: center;
-    color: white;
+    color: white; 
+    font-size: 0.8rem;
 }
 .lista-2 li{
     display: flex;
     justify-items: center;
     justify-content: center;
     color: white;
+    font-size: 0.8rem;
+
 }
 
 @media only screen and (max-width: 600px){
@@ -54,11 +57,12 @@
     .tit-productos{
         font-size: 1rem;
     }
+    
     .lista-1 li{
-        font-size: 00.80rem;
+        font-size: 00.40rem;
     }
     .lista-2 li{
-        font-size: 00.80rem;
+        font-size: 00.40rem;
     }
 }
     

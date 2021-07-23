@@ -107,18 +107,10 @@
     column-gap: 6px;
 
     .lista-1{
-        
-        grid-area: "lista-1";
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
+        grid-area: lista-1;
     }
     .lista-2{
-       
-        grid-area: "lista-2";
-        display: flex;
-        justify-content: right;
-        flex-direction: column;
+        grid-area: lista-2;   
     }
   
 }
