@@ -36,6 +36,10 @@
     background-color: $background_textos;
     padding: 1% 2% 2% 1%;
     border-radius: 10px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 600px){
@@ -70,14 +74,16 @@
     .tit-redes h3{
         font-size: 00.70rem;
         }
-    .redes p{
+    .redes a{
             width: 90vw;
             height: auto;
             font-size: 00.40rem;
-        }
+        
+    }
 
     .redes svg{
-            max-height: 15px;
+           height: auto;
+            
         }
 
     
