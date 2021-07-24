@@ -23,7 +23,7 @@ body {
   font-family: "Poppins", sans-serif; }
 
 .body-contacto {
-  height: auto;
+  height: 100%;
   width: 100%;
   background-image: url(../img/clientela2.jpg);
   background-repeat: no-repeat;
@@ -470,6 +470,9 @@ li, a {
   padding-left: 1%; }
 
 @media only screen and (max-width: 600px) {
+  .footer--mod {
+    width: auto;
+    height: 5rem; }
   .header {
     font-size: 0.50rem; }
   .gridhome {
