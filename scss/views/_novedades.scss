@@ -72,7 +72,7 @@
     }
     .tit-redes h3{
         font-size: 00.70rem;
-        }
+    }
     .redes a{
             width: 90vw;
             height: auto;
@@ -83,14 +83,59 @@
     .redes svg{
            height: auto;
             
-        }
-
-    
-    
-
-    
-    
-
+    }
 }
+
+@media only screen and (max-width: 1024px){
+    .novedades-grid{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+        .div1{
+            width: 90vw;
+            height: auto;
+            font-size: 1rem;
+        }
+    
+        .imgclientes1{
+            width: 90vw;
+            height: 50vh;
+        }
+        .tit-redes{
+            padding-top: 1%;
+            width: 90vw;
+            height: auto;
+        }   
+        .redes{
+            width: 95vw;
+            height: auto;
+    
+        }
+        
+    }
+    .tit-redes h3{
+        font-size: 1rem;
+    }
+    .redes a{
+            width: 90vw;
+            height: auto;
+            font-size: 0.7rem;
+        
+    }
+
+    .redes svg{
+           height: auto;
+            
+    }
+
+    #footer--mod{
+        width:100%;
+        height: auto;
+        position:absolute; bottom:0; 
+    }
+}
+
      
     

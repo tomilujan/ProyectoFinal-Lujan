@@ -27,3 +27,41 @@
     }
     
 }
+
+@media only screen and (max-width: 768px){
+    
+    .body-contacto{
+        width: 100vw;
+        height: 100vh;
+    }
+    .tit-form{
+        font-size: 1.5rem;
+    }
+    #contenedor-form{
+        width: 80vw;
+        height: auto;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and ( max-width: 1024px){
+    .body-contacto{
+        width: 100vw;
+        height: 100vh;
+    }
+    .tit-form{
+        font-size: 1.7rem;
+    }
+    #contenedor-form{
+        width: 80vw;
+        height: 60vh;
+        font-size: 1.3rem;
+        margin-bottom: 17%;
+    }
+    .media{
+        padding: 5%;
+        
+    }
+
+}

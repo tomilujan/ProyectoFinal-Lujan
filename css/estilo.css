@@ -168,34 +168,27 @@ body {
   .servicios .lista-2 {
     grid-area: lista-2; }
 
-.footer--mod {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  background-color: #192E59; }
-
-.footer {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  padding-left: 1%;
-  margin-top: 1%;
-  background-color: #192E59; }
-
-#footer {
-  position: absolute;
-  bottom: 0;
+#footer--mod {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-align: center;
   background-color: #192E59;
-  padding-left: 2%; }
+  margin-top: 2%;
+  position: absolute;
+  bottom: 0; }
+
+#footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #192E59;
+  margin-top: 2%;
+  position: relative;
+  bottom: 0; }
 
 h1, a, p, footer, h2, label, span, h3 {
   color: white; }
@@ -300,6 +293,62 @@ li, a {
     font-size: 00.70rem;
     margin-bottom: 70%; } }
 
+@media only screen and (max-width: 768px) {
+  .body-registrarse {
+    height: 100vh;
+    width: 100vw; }
+  .textos {
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .textos h3 {
+    font-size: 1rem;
+    text-align: center; }
+  .form-inc {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1rem; }
+  .agregados {
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1rem; } }
+
+@media only screen and (max-width: 1024px) {
+  .body-registrarse {
+    height: 100vh;
+    width: 100vw; }
+  .textos {
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .textos h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .form-inc {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem; }
+  .agregados {
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem; } }
+
 .cont-prod {
   margin-top: 2%;
   width: 100%;
@@ -356,6 +405,16 @@ li, a {
   .lista-2 li {
     font-size: 00.40rem; } }
 
+@media only screen and (max-width: 768px) {
+  #footer {
+    position: relative;
+    bottom: 0; } }
+
+@media only screen and (max-width: 1024px) {
+  #footer {
+    position: relative;
+    bottom: 0; } }
+
 .contacto {
   width: 80%;
   height: auto;
@@ -376,6 +435,31 @@ li, a {
     font-size: 00.80rem; }
   .form-control {
     font-size: 00.7rem; } }
+
+@media only screen and (max-width: 768px) {
+  .body-contacto {
+    width: 100vw;
+    height: 100vh; }
+  .tit-form {
+    font-size: 1.5rem; }
+  #contenedor-form {
+    width: 80vw;
+    height: auto;
+    font-size: 1.3rem; } }
+
+@media only screen and (max-width: 1024px) {
+  .body-contacto {
+    width: 100vw;
+    height: 100vh; }
+  .tit-form {
+    font-size: 1.7rem; }
+  #contenedor-form {
+    width: 80vw;
+    height: 60vh;
+    font-size: 1.3rem;
+    margin-bottom: 17%; }
+  .media {
+    padding: 5%; } }
 
 .imgclientes1 {
   height: auto;
@@ -442,6 +526,40 @@ li, a {
     font-size: 00.40rem; }
   .redes svg {
     height: auto; } }
+
+@media only screen and (max-width: 1024px) {
+  .novedades-grid {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column; }
+    .novedades-grid .div1 {
+      width: 90vw;
+      height: auto;
+      font-size: 1rem; }
+    .novedades-grid .imgclientes1 {
+      width: 90vw;
+      height: 50vh; }
+    .novedades-grid .tit-redes {
+      padding-top: 1%;
+      width: 90vw;
+      height: auto; }
+    .novedades-grid .redes {
+      width: 95vw;
+      height: auto; }
+  .tit-redes h3 {
+    font-size: 1rem; }
+  .redes a {
+    width: 90vw;
+    height: auto;
+    font-size: 0.7rem; }
+  .redes svg {
+    height: auto; }
+  #footer--mod {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0; } }
 
 .animate__bounceIn {
   --animate-delay: 2s;
