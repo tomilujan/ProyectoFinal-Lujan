@@ -13,19 +13,26 @@
 }
 
 @media only screen and (max-width: 600px){
-    
-    .tit-form{
-        font-size: 1rem;
-    }
+    .body-contacto{
+        width: 100vw;
+        height: 100vh;
+       
 
-    #contenedor-form{
-        font-size: 00.80rem;
-    }
+        .contacto{
+            width: 80vw;
+            height: auto;
+        }
+        .tit-form{
+            font-size: 1rem;
+        }
 
-    .form-control{
-        font-size: 00.7rem;
-    }
-    
+        #contenedor-form{
+            width: 80vw;
+            height: auto;
+            font-size: 0.8rem;
+            margin-bottom: 0%;
+        }
+    }   
 }
 
 @media only screen and (max-width: 768px){
@@ -50,9 +57,7 @@
         width: 100vw;
         height: 100vh;
     }
-    .tit-form{
-        font-size: 1.7rem;
-    }
+    
     #contenedor-form{
         width: 80vw;
         height: 60vh;

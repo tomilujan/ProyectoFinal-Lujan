@@ -268,30 +268,24 @@ li, a {
   .body-registrarse {
     height: 100vh;
     width: 100vw; }
-  .textos {
-    height: auto;
-    width: 80vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-  .textos h3 {
-    font-size: 1rem;
-    text-align: center; }
-  .form-inc {
-    height: auto;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 00.80rem; }
-  .agregados {
-    height: auto;
-    width: 80vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 00.70rem;
-    margin-bottom: 70%; } }
+    .body-registrarse .textos {
+      height: auto;
+      width: 80vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .body-registrarse .textos .textos h3 {
+        font-size: 1rem;
+        text-align: center; }
+    .body-registrarse .form-inc {
+      height: auto;
+      width: 100vw;
+      font-size: 00.80rem; }
+    .body-registrarse .agregados {
+      height: auto;
+      width: 80vw;
+      font-size: 00.70rem;
+      margin-bottom: 70%; } }
 
 @media only screen and (max-width: 768px) {
   .body-registrarse {
@@ -429,12 +423,19 @@ li, a {
   font-size: 1.5rem; }
 
 @media only screen and (max-width: 600px) {
-  .tit-form {
-    font-size: 1rem; }
-  #contenedor-form {
-    font-size: 00.80rem; }
-  .form-control {
-    font-size: 00.7rem; } }
+  .body-contacto {
+    width: 100vw;
+    height: 100vh; }
+    .body-contacto .contacto {
+      width: 80vw;
+      height: auto; }
+    .body-contacto .tit-form {
+      font-size: 1rem; }
+    .body-contacto #contenedor-form {
+      width: 80vw;
+      height: auto;
+      font-size: 0.8rem;
+      margin-bottom: 0%; } }
 
 @media only screen and (max-width: 768px) {
   .body-contacto {
@@ -451,8 +452,6 @@ li, a {
   .body-contacto {
     width: 100vw;
     height: 100vh; }
-  .tit-form {
-    font-size: 1.7rem; }
   #contenedor-form {
     width: 80vw;
     height: 60vh;
